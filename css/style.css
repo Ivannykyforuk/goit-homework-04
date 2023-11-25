@@ -219,6 +219,7 @@ body {
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title {
@@ -240,7 +241,7 @@ body {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .hero-buttom:hover,
