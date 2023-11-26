@@ -319,11 +319,15 @@ body {
 .our-team {
     background-color: #F4F4FD;
     padding: 120px 0;
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);  */
 
 }
 
 .container-our-team {
     margin-bottom: 72px;
+
 }
 
 .section-title {
@@ -370,6 +374,7 @@ body {
 .social-team-item {
     width: 40px;
     height: 40px;
+
 }
 
 .social-team-link {
@@ -380,6 +385,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-team-link:hover,
