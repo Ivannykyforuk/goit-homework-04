@@ -98,6 +98,18 @@ body {
     color: #2E2F42;
 }
 
+.text-logo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 /* Навігаційне меню */
 .page-header-container {
     display: flex;
